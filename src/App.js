@@ -3,6 +3,7 @@ import app from "./firebase.init";
 import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 
 const auth = getAuth(app);
+console.log("");
 
 function App() {
   const provider = new GoogleAuthProvider();
